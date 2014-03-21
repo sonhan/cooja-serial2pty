@@ -78,7 +78,7 @@ public class Serial2Pty extends VisPlugin implements MotePlugin {
 
   private Observer serialObserver;
 
-  public Serial2Pty(Mote moteToView, Simulation simulation, Cooja cooja) {
+  public Serial2Pty(Mote moteToView, Simulation simulation, GUI cooja) {
       super("Serial 2 Pty (" + moteToView + ")", cooja);
       mote = moteToView;
       String pluginPath = "";
