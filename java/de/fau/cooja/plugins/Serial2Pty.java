@@ -53,8 +53,8 @@ import java.util.Vector;
 import javax.swing.*;
 
 import org.apache.log4j.Logger;
-import org.contikios.cooja.*;
-import org.contikios.cooja.interfaces.SerialPort;
+import se.sics.cooja.*;
+import se.sics.cooja.interfaces.SerialPort;
 import org.jdom.Element;
 
 @ClassDescription("Serial 2 Pty")
